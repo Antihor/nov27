@@ -6,8 +6,9 @@
   margin-bottom: 24px;
 }
 
-button {
-  background-color: darkslateblue;
-  color: aliceblue;
-  border-radius: 4px;
+.btn {
+display: inline-block;
+}
+.invisible {
+  display: none;
 }
