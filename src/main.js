@@ -40,7 +40,7 @@ async function onSubmit(ev) {
     refs.galRef.innerHTML = '';
     renderNews(data.articles);
   } catch {
-    showError(data.message);
+    showError(message);
     lastPage = 0;
     refs.formREf.reset();
     refs.galRef.innerHTML = '';
